@@ -12,5 +12,4 @@ class Car
     @year = details[:year]
     @age = Time.now.year - (details[:year]).to_i
   end
-
 end
