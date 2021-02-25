@@ -3,7 +3,6 @@ require 'minitest/pride'
 require './lib/car'
 
 class CarTest < Minitest::Test
-
   def setup
     @car_1 = Car.new({description: 'Green Ford Mustang', year: '1967'})
   end
